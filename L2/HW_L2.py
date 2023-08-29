@@ -28,10 +28,10 @@ print(S)
 # Декларирайте необходи­мите променливи, нужни за да се запази информацията за един служи­тел, като 
 # използвате подходящи типове данни и описателни имена.
 
-first_name: str = "Име на служителя"
-last_name: str = "Фамилия на служителя"
-age: int = 30
-gender: str = 'м'
+first_name: str = "Yuliya"
+last_name: str = "Kostadinova"
+age: int = 34
+gender: str = 'F'
 employee_id: int = 27560001
 
 
