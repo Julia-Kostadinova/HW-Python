@@ -34,6 +34,25 @@ age: int = 34
 gender: str = 'F'
 employee_id: int = 27560005
 
+#Задача 7. Декларирайте две променливи, които да са цели числа. Задайте им стойности съответно 5 и 10. 
+# Разменете стойностите им и ги отпечатайте.
+
+var_1=int(input('Enter number:'))
+var_2=int(input('Enter number:'))
+
+print(var_2,var_1)
 
 
 
+
+# Задача 8. Напишете програма, която за дадени дължина и височина на успоредник, пресмята и отпечатва на конзолата неговия периметър и лице.
+
+parallel_lenght=float(input('Enter lenght:'))
+parallel_height=float(input('Enter height:'))
+
+perimeter = 2*(parallel_lenght+parallel_height)
+area_parallel=parallel_lenght*parallel_height
+
+print(f'Периметърът на успоредника:{perimeter}')
+
+print(f'Лицето на успоредника:{area_parallel}')
